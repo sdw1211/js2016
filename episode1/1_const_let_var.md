@@ -41,6 +41,7 @@
 3. const
   1. let과 기능의 거의 비슷
   2. reassign 이 되지 않는 점만 다름
+  3. https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/const
   ```javascript
   const a= 1000;
   a=200;    //에러, reassign이 되지 않는다.
