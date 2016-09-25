@@ -52,10 +52,10 @@
       this._friends.forEach(f =>
         console.log(this._name + " knows " + f));   //this는 obj 자신
     }
-    aaa : () => console.log(this)         //this 는 window,     
+    aaa : () => console.log(this)         //this 는 window, 이해는 되는데 설명이 힘듬;
   };
- 5. [https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/%EC%95%A0%EB%A1%9C%EC%9A%B0_%ED%8E%91%EC%85%98](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/%EC%95%A0%EB%A1%9C%EC%9A%B0_%ED%8E%91%EC%85%98)
- 6. [http://www.2ality.com/2012/04/arrow-functions.html](http://www.2ality.com/2012/04/arrow-functions.html) 
+ 5. [모질라링크](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/%EC%95%A0%EB%A1%9C%EC%9A%B0_%ED%8E%91%EC%85%98)
+ 6. [lexical this에 대한 설명](http://www.2ality.com/2012/04/arrow-functions.html) 
  
  
   
