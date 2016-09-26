@@ -10,5 +10,6 @@
 3. entries
 4. keys
 5. values
-6. fill
+6. copyWithin
+7. fill
 
