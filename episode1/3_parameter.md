@@ -42,20 +42,20 @@
     ```
     
 2. default value 사용이 가능
-```javascript
-function oldSum(a,b,c) {
-    
-    if (a === null) { a=10; }
-    if (b === null) { b=20; }
-    if (c === null) { c=30; }
-    
-    return a+b+c;
-}
+  ```javascript
+  function oldSum(a,b,c) {
 
-const sum = (a=10, b=20, c=30) => a+b+c;
+      if (a === null) { a=10; }
+      if (b === null) { b=20; }
+      if (c === null) { c=30; }
 
-console.log(sum());     // 10 + 20 + 30
-console.log(sum(100));  // 100 + 20 + 30
-console.log(sum(100, 200)); //100 + 200 + 30
-console.log(sum(100, 200, 300));  //100 + 200 + 300
-```
+      return a+b+c;
+  }
+
+  const sum = (a=10, b=20, c=30) => a+b+c;
+
+  console.log(sum());     // 10 + 20 + 30
+  console.log(sum(100));  // 100 + 20 + 30
+  console.log(sum(100, 200)); //100 + 200 + 30
+  console.log(sum(100, 200, 300));  //100 + 200 + 300
+  ```
